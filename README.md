@@ -1,5 +1,4 @@
 # SpaceX Falcon 9 First Stage Landing Prediction
-***
 This repository houses my applied data science capstone project for the IBM Data Science Professional Certificate.
 ***
 ## Objective
@@ -21,4 +20,4 @@ SpaceX advertises Falcon 9 rocket launches on its website with a cost of $62 mil
 ## Insights
 *  The overall landning success rate was 72%
 *  The first stage is more likely to land successfully as the number of completed flights increases
->![alt text](https://github.com/edwardjmoore/SpaceX-Falcon-9-First-Stage-Landing-Prediction/blob/main/images/Payload-Mass-vs-Flight-Number.png?raw=true)
+>![alt text](https://github.com/edwardjmoore/SpaceX-Falcon-9-First-Stage-Landing-Prediction/blob/main/images/Payload Mass vs Flight Number.png?raw=true)
