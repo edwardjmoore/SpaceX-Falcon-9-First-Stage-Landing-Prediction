@@ -30,3 +30,12 @@ Part 8: Predicting landing outcomes with machine learning techniques (Logistic R
 ![alt text](https://github.com/edwardjmoore/SpaceX-Falcon-9-First-Stage-Landing-Prediction/blob/main/images/launchsite-vs-flightnumber.png?raw=true)
 *  Flights with GTO orbit are less likely to land
 ![alt text](https://github.com/edwardjmoore/SpaceX-Falcon-9-First-Stage-Landing-Prediction/blob/main/images/orbit-vs-flightnumber.png?raw=true)
+## Results
+The data was split into training and testing sets and four different regression techniques were used to predict the landing outcome of the test set. They are:
+1.  Logistic regression
+2.  Support vector machine
+3.  Decision Tree
+4.  K-Nearest Neighbors
+Each technique was trained and tested on the same data consisting of several variables including payload mass, orbit, launch site, whether or not grid fins were used, whether or not legs were used, whether or not the rocket was used before, landing pad, and booster serial. A gird search method was also used to iterate through and find the best hyperparameters for each technique. 
+
+In the end, the logisitic regression model was chosen as the best model to deploy, with a prediction accuracy of 87%. 
